@@ -9,3 +9,13 @@ root.render(
   <App />
 );
 
+// // Delete this:
+// ReactDOM.render(
+//   <React.StrictMode>
+//       <App />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// )
+
+// // And add this:
+// ReactDOM.createRoot(document.getElementById('root')).render(<App />)
